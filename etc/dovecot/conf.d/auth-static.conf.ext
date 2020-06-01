@@ -1,0 +1,9 @@
+passdb {                                                                   
+  driver = static                                                          
+  args = password=test                                                     
+}                                                                          
+                                                                    
+userdb {                                                            
+  driver = static                                                   
+  args = uid=dovecot gid=dovecot home=/var/vmail/%d/%n/Maildir
+}                                                         
