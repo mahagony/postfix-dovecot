@@ -4,7 +4,7 @@ from email.message import EmailMessage
 smtp_host = 'localhost'
 smtp_port = 9025
 
-email_sender = 'pfe@pluton'
+email_sender = 'pfe@pluton.localdomain'
 email_receiver = 'test1@mahagony4.me'
 
 message = EmailMessage()
