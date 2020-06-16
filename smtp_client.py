@@ -8,7 +8,7 @@ email_sender = 'pfe@pluton'
 email_receiver = 'test1@mahagony4.me'
 
 message = EmailMessage()
-message['Subject'] = 'multipart test'
+message['Subject'] = 'test text/plain'
 message['From'] = email_sender
 message['To'] = email_receiver
 
