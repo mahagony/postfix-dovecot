@@ -17,3 +17,4 @@ meta_directory = /etc/postfix
 shlib_directory = /usr/lib/postfix                                             
 virtual_mailbox_domains = mahagony4.me                                         
 virtual_transport = dovecot
+dovecot_destination_recipient_limit = 1
